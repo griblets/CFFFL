@@ -1,34 +1,50 @@
 /* =========================================================
    CFFFL-MFL.css
-   Minimal custom styling for the CFFFL MyFantasyLeague site.
+   Custom styling for the CFFFL MyFantasyLeague site.
    MFL's built-in theme handles the rest of the site.
    ========================================================= */
 
 
-/* -----------------------------
-   Overall custom content frame
-   ----------------------------- */
+/* =========================================================
+   OVERALL PAGE WIDTH
+   ========================================================= */
 
 #contentframe {
-    width: 96%;
-    max-width: 1600px;
-    margin: 0 auto;
+    width: 96% !important;
+    max-width: 1600px !important;
+    margin: 0 auto !important;
+}
+
+#homepagecolumns {
+    width: 100% !important;
+    max-width: none !important;
+    margin: 0 auto !important;
+}
+
+.homepagetabcontent {
+    width: 100% !important;
+    max-width: none !important;
+}
+
+.main_tabmenu {
+    width: 100% !important;
+    max-width: none !important;
 }
 
 
-/* -----------------------------
-   Custom content layout
-   ----------------------------- */
+/* =========================================================
+   CUSTOM CONTENT LAYOUT
+   ========================================================= */
 
 #cfffl-layout {
-    width: 100%;
-    margin: 0 auto;
+    width: 100% !important;
+    max-width: none !important;
+    margin: 0 auto !important;
     border-collapse: collapse;
     table-layout: fixed;
 }
 
 #column1 {
-    width: 150px;
     vertical-align: top;
     padding-right: 12px;
 }
@@ -39,14 +55,13 @@
 }
 
 #column3 {
-    width: 305px;
     vertical-align: top;
 }
 
 
-/* -----------------------------
-   CFFFL banner
-   ----------------------------- */
+/* =========================================================
+   CFFFL BANNER
+   ========================================================= */
 
 img[alt="CFFFL"] {
     display: inline-block;
@@ -57,9 +72,9 @@ img[alt="CFFFL"] {
 }
 
 
-/* -----------------------------
-   Top CFFFL navigation
-   ----------------------------- */
+/* =========================================================
+   TOP CFFFL NAVIGATION
+   ========================================================= */
 
 .leaguemenucontainer {
     text-align: center;
@@ -74,6 +89,7 @@ img[alt="CFFFL"] {
 }
 
 .leaguemenu a,
+.leaguemenu a:link,
 .leaguemenu a:visited {
     color: #b89543;
     text-decoration: none;
@@ -86,9 +102,9 @@ img[alt="CFFFL"] {
 }
 
 
-/* -----------------------------
-   Left sidebar
-   ----------------------------- */
+/* =========================================================
+   LEFT SIDEBAR
+   ========================================================= */
 
 .leftnavcontainers {
     width: 100% !important;
@@ -156,12 +172,12 @@ img[alt="CFFFL"] {
 }
 
 
-/* -----------------------------
-   Footer cleanup
-   ----------------------------- */
+/* =========================================================
+   FOOTER
+   ========================================================= */
 
 .contentfooter {
-    width: 100%;
+    width: 100% !important;
     margin: 10px auto 0 auto;
     border-collapse: collapse;
 }
@@ -172,6 +188,7 @@ img[alt="CFFFL"] {
 }
 
 .contentfooter a,
+.contentfooter a:link,
 .contentfooter a:visited {
     color: #b89543;
     text-decoration: none;
@@ -184,21 +201,25 @@ img[alt="CFFFL"] {
 }
 
 
-/* -----------------------------
-   Small-screen fallback
-   ----------------------------- */
+/* =========================================================
+   SMALL-SCREEN FALLBACK
+   ========================================================= */
 
 @media (max-width: 980px) {
 
     #contentframe {
-        width: 100%;
-        max-width: none;
-        margin: 0;
+        width: 100% !important;
+        max-width: none !important;
+        margin: 0 !important;
     }
 
+    #homepagecolumns,
     #cfffl-layout,
+    .homepagetabcontent,
+    .main_tabmenu,
     .contentfooter {
-        width: 100%;
+        width: 100% !important;
+        max-width: none !important;
     }
 
     img[alt="CFFFL"] {
