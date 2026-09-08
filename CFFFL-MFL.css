@@ -271,6 +271,12 @@ img[alt="CFFFL"] {
    Compact, centered two-column schedule
    ========================================================= */
 
+/* Match the clean black background used on other CFFFL pages */
+#body_options_15 {
+    background: #000 !important;
+    background-image: none !important;
+}
+
 /* Constrain entire Schedule page beneath the 960px banner */
 #body_options_15 #options_15 {
     width: 1000px !important;
@@ -278,6 +284,8 @@ img[alt="CFFFL"] {
     margin-left: auto !important;
     margin-right: auto !important;
     box-sizing: border-box !important;
+    border: none !important;
+    background: transparent !important;
 }
 
 /* Keep weekly matchup reports contained within their columns */
@@ -285,11 +293,4 @@ img[alt="CFFFL"] {
     width: 100% !important;
     max-width: 100% !important;
     box-sizing: border-box !important;
-}
-
-/* Remove unnecessary outer page border while retaining
-   the individual weekly matchup report borders */
-#body_options_15 #options_15 {
-    border: none !important;
-    background: transparent !important;
 }
