@@ -524,3 +524,20 @@ body,
 #owner_activity td.franchisename {
     color: #d8c68a !important;
 }
+
+/* =========================================================
+   CFFFL - MY ICON
+   Size and center dynamic franchise/commissioner icon
+   ========================================================= */
+
+#homepagecolumn3 .franchiseicon {
+    display: block !important;
+    width: 200px !important;
+    height: 200px !important;
+    max-width: 90% !important;
+    object-fit: contain !important;
+
+    margin: 10px auto 14px auto !important;
+    padding: 0 !important;
+    border: 0 !important;
+}
