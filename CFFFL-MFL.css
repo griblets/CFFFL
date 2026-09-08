@@ -233,3 +233,27 @@ img[alt="CFFFL"] {
         width: auto !important;
     }
 }
+
+/* =========================================================
+   CFFFL - STANDINGS PAGE
+   ========================================================= */
+
+#body_standings table.report {
+    width: 700px !important;
+    max-width: 95% !important;
+    min-width: 0 !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+/* Keep franchise names from creating excessive empty space */
+#body_standings table.report th:first-child,
+#body_standings table.report td:first-child {
+    width: 260px !important;
+}
+
+/* REMOVE THIS SECTION if DIV W-L-T is disabled in MFL */
+#body_standings table.report th:last-child,
+#body_standings table.report td:last-child {
+    display: none !important;
+}
