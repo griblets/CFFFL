@@ -294,3 +294,32 @@ img[alt="CFFFL"] {
     max-width: 100% !important;
     box-sizing: border-box !important;
 }
+
+/* =========================================================
+   CFFFL - ROSTERS PAGE
+   Compact, centered two-column roster layout
+   ========================================================= */
+
+/* Match the clean black background used on other CFFFL pages */
+#body_options_07 {
+    background: #000 !important;
+    background-image: none !important;
+}
+
+/* Constrain the roster page beneath the 960px banner */
+#body_options_07 #options_07 {
+    width: 1100px !important;
+    max-width: 95% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    box-sizing: border-box !important;
+    border: none !important;
+    background: transparent !important;
+}
+
+/* Keep each roster report contained within its column */
+#body_options_07 #options_07 table.report {
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+}
