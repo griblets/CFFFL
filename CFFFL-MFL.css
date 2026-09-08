@@ -453,36 +453,48 @@ textarea {
 
 /* =========================================================
    CFFFL - HEADER / BANNER CLEANUP
+   1200 x 120 banner, reduced vertical space,
+   remove exposed GoldMetal skin strip
    ========================================================= */
 
-/* Remove the GoldMetal skin strip/background from MFL header */
+/* Clean up the native MFL page header */
 .pageheader {
     background: #000 !important;
     background-image: none !important;
     border: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
 }
 
-/* Remove unnecessary MFL header spacing */
-.pageheader,
+/* Remove extra spacing inside the MFL header table */
 .pageheader td {
     padding-top: 0 !important;
     padding-bottom: 0 !important;
 }
 
-/* Tighten space around our custom CFFFL banner */
-.cfffl-banner,
-.cfffl-banner-container {
-    margin-top: 8px !important;
-    margin-bottom: 8px !important;
+/* CFFFL banner container */
+.cfffl-banner {
+    width: 1200px;
+    max-width: 95%;
+    margin: 10px auto 8px auto !important;
     padding: 0 !important;
+    text-align: center;
 }
 
-/* Make banner responsive while displaying at 1200 x 120 */
-.cfffl-banner img,
-img.cfffl-banner {
+/* Responsive 1200 x 120 banner */
+.cfffl-banner img {
     display: block !important;
     width: 1200px !important;
     max-width: 100% !important;
     height: auto !important;
     margin: 0 auto !important;
+    padding: 0 !important;
+    border: 0 !important;
+}
+
+/* Keep custom navigation close to the banner */
+.leaguemenucontainer {
+    margin-top: 6px !important;
+    margin-bottom: 10px !important;
+    padding: 0 !important;
 }
