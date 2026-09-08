@@ -360,8 +360,7 @@ img[alt="CFFFL"] {
 
 /* General Transactions page text */
 #body_options_03 #options_03 {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
-                 Roboto, Helvetica, Arial, sans-serif !important;
+    font-family: Aptos, "Segoe UI", Arial, Helvetica, sans-serif !important;
     font-size: 12px !important;
 }
 
