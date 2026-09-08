@@ -239,13 +239,13 @@ img[alt="CFFFL"] {
    Compact, centered standings report
    ========================================================= */
 
-/* Remove the oversized full-width border around the report */
+/* Remove oversized outer border */
 #body_standings #contentframe > .mobile-wrap {
     border: none !important;
     background: transparent !important;
 }
 
-/* Keep the standings table compact and centered */
+/* Compact and center the standings table */
 #body_standings table.report {
     width: 700px !important;
     max-width: 95% !important;
@@ -254,9 +254,14 @@ img[alt="CFFFL"] {
     margin-right: auto !important;
 }
 
-/* Give the franchise-name column enough room without
-   allowing it to absorb excessive blank space */
+/* Control franchise-name column width */
 #body_standings table.report th:first-child,
 #body_standings table.report td:first-child {
     width: 260px !important;
+}
+
+/* Hide unused DIV W-L-T column */
+#body_standings table.report th:last-child,
+#body_standings table.report td:last-child {
+    display: none !important;
 }
