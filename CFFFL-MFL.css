@@ -515,3 +515,12 @@ body,
     padding-top: 0 !important;
     margin-top: 0 !important;
 }
+
+/* =========================================================
+   CFFFL - OWNER ACTIVITY
+   Fix Commissioner text color
+   ========================================================= */
+
+#owner_activity td.franchisename {
+    color: #d8c68a !important;
+}
