@@ -699,3 +699,41 @@ body,
     padding-left: 14px !important;
     padding-right: 14px !important;
 }
+
+/* =========================================================
+   CFFFL - SUBMIT LINEUP MODULE
+   Better column proportions
+   ========================================================= */
+
+/* Keep the lineup table predictable */
+#submit_lineup {
+    width: 100% !important;
+    table-layout: fixed !important;
+}
+
+/* Left instruction column */
+#submit_lineup tr > th:first-child,
+#submit_lineup tr > td:first-child {
+    width: 32% !important;
+}
+
+/* Right player-selection column */
+#submit_lineup tr > th:nth-child(2),
+#submit_lineup tr > td:nth-child(2) {
+    width: 68% !important;
+}
+
+/* Keep instruction text compact and centered */
+#submit_lineup tr > th:first-child,
+#submit_lineup tr > td:first-child {
+    text-align: center !important;
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+}
+
+/* Give player names a little breathing room */
+#submit_lineup tr > th:nth-child(2),
+#submit_lineup tr > td:nth-child(2) {
+    padding-left: 8px !important;
+    padding-right: 6px !important;
+}
