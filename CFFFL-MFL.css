@@ -358,10 +358,7 @@ img[alt="CFFFL"] {
    Aptos with Segoe UI / Arial fallback
    ========================================================= */
 
-/* ---------------------------------------------------------
-   GENERAL SITE TEXT
-   --------------------------------------------------------- */
-
+/* General site typography */
 body,
 #contentframe,
 .pagebody {
@@ -371,12 +368,11 @@ body,
 
 /* ---------------------------------------------------------
    REPORT TABLE CONTENT
-   Standings, Schedule, Rosters, Transactions, Modules, etc.
    --------------------------------------------------------- */
 
 .report td {
     font-family: Aptos, "Segoe UI", Arial, Helvetica, sans-serif !important;
-    font-size: 12px !important;
+    font-size: 13px !important;
     line-height: 1.35 !important;
 }
 
@@ -387,22 +383,18 @@ body,
 
 .report th {
     font-family: Aptos, "Segoe UI", Arial, Helvetica, sans-serif !important;
-    font-size: 10px !important;
+    font-size: 11px !important;
     font-weight: 700 !important;
 }
 
 
 /* ---------------------------------------------------------
    REPORT TITLES / CAPTIONS
-   Examples:
-   LEAGUE STANDINGS
-   RECENT TRANSACTIONS
-   WEEK 1 HEAD-TO-HEAD MATCHUPS
    --------------------------------------------------------- */
 
 .report caption {
     font-family: Aptos, "Segoe UI", Arial, Helvetica, sans-serif !important;
-    font-size: 13px !important;
+    font-size: 14px !important;
     font-weight: 700 !important;
     letter-spacing: 0.3px !important;
 }
@@ -410,14 +402,13 @@ body,
 
 /* ---------------------------------------------------------
    LINKS WITHIN REPORTS
-   Franchise names, player names, etc.
    --------------------------------------------------------- */
 
 .report a,
 .report a:link,
 .report a:visited {
     font-family: Aptos, "Segoe UI", Arial, Helvetica, sans-serif !important;
-    font-size: 12px !important;
+    font-size: 13px !important;
 }
 
 
@@ -430,14 +421,13 @@ body,
 .leaguemenu a:link,
 .leaguemenu a:visited {
     font-family: Aptos, "Segoe UI", Arial, Helvetica, sans-serif !important;
-    font-size: 12px !important;
+    font-size: 13px !important;
     line-height: 1.5 !important;
 }
 
 
 /* ---------------------------------------------------------
    FORMS / FILTER CONTROLS
-   Dropdowns, text boxes, buttons
    --------------------------------------------------------- */
 
 select,
@@ -445,7 +435,7 @@ input,
 button,
 textarea {
     font-family: Aptos, "Segoe UI", Arial, Helvetica, sans-serif !important;
-    font-size: 12px;
+    font-size: 13px;
 }
 
 
