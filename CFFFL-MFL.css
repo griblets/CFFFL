@@ -352,3 +352,43 @@ img[alt="CFFFL"] {
     max-width: 100% !important;
     box-sizing: border-box !important;
 }
+
+/* =========================================================
+   CFFFL - TRANSACTIONS TYPOGRAPHY TEST
+   Modern system font - Transactions page only
+   ========================================================= */
+
+/* General Transactions page text */
+#body_options_03 #options_03 {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+                 Roboto, Helvetica, Arial, sans-serif !important;
+    font-size: 12px !important;
+}
+
+/* Transaction table content */
+#body_options_03 #options_03 .report td {
+    font-family: inherit !important;
+    font-size: 12px !important;
+    line-height: 1.35 !important;
+}
+
+/* Column headings */
+#body_options_03 #options_03 .report th {
+    font-family: inherit !important;
+    font-size: 10px !important;
+    font-weight: 700 !important;
+}
+
+/* RECENT TRANSACTIONS heading */
+#body_options_03 #options_03 .report caption {
+    font-family: inherit !important;
+    font-size: 13px !important;
+    font-weight: 700 !important;
+    letter-spacing: 0.3px !important;
+}
+
+/* Franchise/player links */
+#body_options_03 #options_03 .report a {
+    font-family: inherit !important;
+    font-size: 12px !important;
+}
