@@ -355,7 +355,8 @@ img[alt="CFFFL"] {
 
 /* =========================================================
    CFFFL - TRANSACTIONS TYPOGRAPHY TEST
-   Modern system font - Transactions page only
+   Aptos with Segoe UI fallback
+   Transactions page only
    ========================================================= */
 
 /* General Transactions page text */
@@ -386,7 +387,7 @@ img[alt="CFFFL"] {
     letter-spacing: 0.3px !important;
 }
 
-/* Franchise/player links */
+/* Franchise and player links */
 #body_options_03 #options_03 .report a {
     font-family: inherit !important;
     font-size: 12px !important;
