@@ -323,3 +323,32 @@ img[alt="CFFFL"] {
     max-width: 100% !important;
     box-sizing: border-box !important;
 }
+
+/* =========================================================
+   CFFFL - TRANSACTIONS PAGE
+   Compact, centered transaction report
+   ========================================================= */
+
+/* Match the clean black background used on other CFFFL pages */
+#body_options_03 {
+    background: #000 !important;
+    background-image: none !important;
+}
+
+/* Constrain the Transactions page */
+#body_options_03 #options_03 {
+    width: 1200px !important;
+    max-width: 95% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    box-sizing: border-box !important;
+    border: none !important;
+    background: transparent !important;
+}
+
+/* Keep the transaction report within the page width */
+#body_options_03 #options_03 table.report {
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+}
