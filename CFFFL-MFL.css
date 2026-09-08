@@ -450,3 +450,39 @@ textarea {
 #cffflFreeAgents th {
     font-family: Aptos, "Segoe UI", Arial, Helvetica, sans-serif !important;
 }
+
+/* =========================================================
+   CFFFL - HEADER / BANNER CLEANUP
+   ========================================================= */
+
+/* Remove the GoldMetal skin strip/background from MFL header */
+.pageheader {
+    background: #000 !important;
+    background-image: none !important;
+    border: none !important;
+}
+
+/* Remove unnecessary MFL header spacing */
+.pageheader,
+.pageheader td {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+/* Tighten space around our custom CFFFL banner */
+.cfffl-banner,
+.cfffl-banner-container {
+    margin-top: 8px !important;
+    margin-bottom: 8px !important;
+    padding: 0 !important;
+}
+
+/* Make banner responsive while displaying at 1200 x 120 */
+.cfffl-banner img,
+img.cfffl-banner {
+    display: block !important;
+    width: 1200px !important;
+    max-width: 100% !important;
+    height: auto !important;
+    margin: 0 auto !important;
+}
