@@ -265,3 +265,31 @@ img[alt="CFFFL"] {
 #body_standings table.report td:last-child {
     display: none !important;
 }
+
+/* =========================================================
+   CFFFL - SCHEDULE PAGE
+   Compact, centered two-column schedule
+   ========================================================= */
+
+/* Constrain entire Schedule page beneath the 960px banner */
+#body_options_15 #options_15 {
+    width: 1000px !important;
+    max-width: 95% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    box-sizing: border-box !important;
+}
+
+/* Keep weekly matchup reports contained within their columns */
+#body_options_15 #options_15 table.report {
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+}
+
+/* Remove unnecessary outer page border while retaining
+   the individual weekly matchup report borders */
+#body_options_15 #options_15 {
+    border: none !important;
+    background: transparent !important;
+}
