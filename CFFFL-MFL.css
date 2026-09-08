@@ -497,3 +497,21 @@ textarea {
     margin-bottom: 10px !important;
     padding: 0 !important;
 }
+
+/* =========================================================
+   CFFFL - REMOVE MFL SKIN STRIP ABOVE HEADER
+   ========================================================= */
+
+html,
+body,
+.pageheader {
+    background-color: #000 !important;
+    background-image: none !important;
+}
+
+/* MFL page header */
+.pageheader {
+    border: 0 !important;
+    padding-top: 0 !important;
+    margin-top: 0 !important;
+}
