@@ -544,7 +544,7 @@ body,
 
 /* =========================================================
    CFFFL - 2026 MODULE FACELIFT
-   Refined GoldMetal styling
+   Charcoal / white with restrained gold accents
    ========================================================= */
 
 
@@ -555,15 +555,13 @@ body,
 .homepagemodule,
 .report {
     margin-bottom: 14px !important;
+    border-color: #454545 !important;
 }
 
 
 /* ---------------------------------------------------------
    MODULE HEADERS / CAPTIONS
-
-   Smaller and more refined than previous version.
-   Keeps the dark GoldMetal character with a subtle
-   champagne-gold accent.
+   White text, charcoal background, thin gold accent only
    --------------------------------------------------------- */
 
 .homepagemodule caption,
@@ -577,21 +575,15 @@ body,
 
     padding: 6px 9px !important;
 
-    color: #cbbb7c !important;
+    color: #eeeeee !important;
+    background-color: #181818 !important;
 
-    /* Keep header dark rather than introducing a new color */
-    background-color: #151515 !important;
-
-    /* Preserve any subtle GoldMetal background texture */
-    background-blend-mode: normal !important;
-
-    /* Cleaner gold separator */
     border-top: 0 !important;
     border-left: 0 !important;
     border-right: 0 !important;
-    border-bottom: 2px solid #756a3b !important;
+    border-bottom: 2px solid #8f8350 !important;
 
-    text-shadow: 0 1px 1px #000000 !important;
+    text-shadow: none !important;
 }
 
 
@@ -605,7 +597,7 @@ body,
 .report caption a,
 .report caption a:link,
 .report caption a:visited {
-    color: #cbbb7c !important;
+    color: #aaa27c !important;
     text-decoration: none !important;
 }
 
@@ -614,15 +606,12 @@ body,
 .report caption a:hover,
 .report caption a:focus {
     color: #ffffff !important;
-    text-decoration: none !important;
 }
 
 
 /* ---------------------------------------------------------
    TABLE COLUMN HEADERS
-
-   Preserve the GoldMetal beige/gold header rows.
-   Only refine typography and spacing.
+   Remove the large beige/gold blocks
    --------------------------------------------------------- */
 
 .homepagemodule th,
@@ -634,13 +623,17 @@ body,
     line-height: 1.2 !important;
 
     padding: 5px 7px !important;
+
+    color: #eeeeee !important;
+    background: #464646 !important;
+    background-image: none !important;
+
+    border-color: #555555 !important;
 }
 
 
 /* ---------------------------------------------------------
    TABLE CONTENT
-
-   Keep reports compact while adding just enough room.
    --------------------------------------------------------- */
 
 .homepagemodule td,
@@ -651,9 +644,8 @@ body,
 
 
 /* ---------------------------------------------------------
-   REPORT LINKS
-
-   Maintain the CFFFL muted-gold link color.
+   LINKS
+   Gold is now reserved mainly for clickable items
    --------------------------------------------------------- */
 
 .homepagemodule td a,
@@ -662,7 +654,7 @@ body,
 .report td a,
 .report td a:link,
 .report td a:visited {
-    color: #d8c68a !important;
+    color: #c8b66c !important;
     text-decoration: none !important;
 }
 
@@ -677,27 +669,11 @@ body,
 
 /* ---------------------------------------------------------
    SUBTLE ROW HOVER
-
-   Provides a small desktop interaction without changing
-   the normal alternating charcoal rows.
    --------------------------------------------------------- */
 
 .homepagemodule tbody tr:hover td,
 .report tbody tr:hover td {
     background-color: #333333 !important;
-}
-
-
-/* ---------------------------------------------------------
-   MODULE BORDERS
-
-   Slightly softer than the brighter original GoldMetal
-   borders.
-   --------------------------------------------------------- */
-
-.homepagemodule,
-.report {
-    border-color: #514b2e !important;
 }
 
 
@@ -710,7 +686,6 @@ body,
     .homepagemodule caption,
     .report caption {
         padding: 6px 7px !important;
-        font-size: 12px !important;
     }
 
     .homepagemodule td,
@@ -718,7 +693,6 @@ body,
         padding: 4px 5px !important;
     }
 }
-
 /* =========================================================
    CFFFL - HOMEPAGE TABS
    Light refinement only
