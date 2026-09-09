@@ -763,12 +763,14 @@ body,
 }
 
 /* =========================================================
-   CFFFL - MAIN TAB LEAGUE STANDINGS TEAM NAMES
+   CFFFL - FRANCHISE NAME TYPOGRAPHY
+   Match team names across MFL reports
    ========================================================= */
 
-#brief_standings td.name a,
-#brief_standings td.name a:link,
-#brief_standings td.name a:visited {
+.report a[class^="franchise_"],
+.report a[class*=" franchise_"],
+.homepagemodule a[class^="franchise_"],
+.homepagemodule a[class*=" franchise_"] {
     font-family: Aptos, "Segoe UI", Arial, Helvetica, sans-serif !important;
     font-size: 12px !important;
     font-weight: 400 !important;
