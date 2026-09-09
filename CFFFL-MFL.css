@@ -743,3 +743,39 @@ body,
     padding-left: 8px !important;
     padding-right: 6px !important;
 }
+
+/* =========================================================
+   CFFFL - ACTIVE HOMEPAGE TAB
+   Replace gold block with charcoal + gold accent
+   ========================================================= */
+
+/* Active tab */
+.myfantasyleague_tabmenu li.currenttab a,
+.myfantasyleague_tabmenu li.currenttab a:link,
+.myfantasyleague_tabmenu li.currenttab a:visited,
+.myfantasyleague_tabmenu li.current a,
+.myfantasyleague_tabmenu li.current a:link,
+.myfantasyleague_tabmenu li.current a:visited,
+.myfantasyleague_tabmenu li.selected a,
+.myfantasyleague_tabmenu li.selected a:link,
+.myfantasyleague_tabmenu li.selected a:visited {
+    background: #242424 !important;
+    background-image: none !important;
+
+    color: #ffffff !important;
+
+    border-top: 1px solid #555555 !important;
+    border-left: 1px solid #555555 !important;
+    border-right: 1px solid #555555 !important;
+    border-bottom: 3px solid #b7a45a !important;
+
+    text-shadow: none !important;
+}
+
+/* Active tab hover */
+.myfantasyleague_tabmenu li.currenttab a:hover,
+.myfantasyleague_tabmenu li.current a:hover,
+.myfantasyleague_tabmenu li.selected a:hover {
+    background: #303030 !important;
+    color: #ffffff !important;
+}
