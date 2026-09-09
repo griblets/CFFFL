@@ -761,3 +761,16 @@ body,
     color: #ffffff !important;
     text-decoration: none !important;
 }
+
+/* =========================================================
+   CFFFL - LEAGUE STANDINGS FRANCHISE FONT
+   Match site typography
+   ========================================================= */
+
+#standings .franchisename,
+#standings td.franchisename,
+#standings .franchise,
+#standings td.franchise {
+    font-family: Aptos, "Segoe UI", Arial, Helvetica, sans-serif !important;
+    font-weight: 600 !important;
+}
