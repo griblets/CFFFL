@@ -544,8 +544,9 @@ body,
 
 /* =========================================================
    CFFFL - 2026 MODULE FACELIFT
-   Subtle modernization of MFL report/module styling
+   Refined GoldMetal styling
    ========================================================= */
+
 
 /* ---------------------------------------------------------
    MODULE SPACING
@@ -558,48 +559,88 @@ body,
 
 
 /* ---------------------------------------------------------
-   MODULE / REPORT CAPTIONS
-   Examples:
-   LIVE SCORING
-   WEEKLY SUMMARY
-   LEAGUE STANDINGS
-   TOP 10 PLAYERS
+   MODULE HEADERS / CAPTIONS
+
+   Smaller and more refined than previous version.
+   Keeps the dark GoldMetal character with a subtle
+   champagne-gold accent.
    --------------------------------------------------------- */
 
 .homepagemodule caption,
 .report caption {
     font-family: Aptos, "Segoe UI", Arial, Helvetica, sans-serif !important;
-    font-size: 14px !important;
+
+    font-size: 12px !important;
     font-weight: 700 !important;
-    letter-spacing: 0.5px !important;
-    line-height: 1.2 !important;
+    line-height: 16px !important;
+    letter-spacing: 0.55px !important;
 
-    padding: 8px 10px !important;
+    padding: 6px 9px !important;
 
-    color: #d8c68a !important;
+    color: #cbbb7c !important;
 
-    border-bottom: 1px solid #5f5937 !important;
+    /* Keep header dark rather than introducing a new color */
+    background-color: #151515 !important;
+
+    /* Preserve any subtle GoldMetal background texture */
+    background-blend-mode: normal !important;
+
+    /* Cleaner gold separator */
+    border-top: 0 !important;
+    border-left: 0 !important;
+    border-right: 0 !important;
+    border-bottom: 2px solid #756a3b !important;
+
+    text-shadow: 0 1px 1px #000000 !important;
+}
+
+
+/* ---------------------------------------------------------
+   CAPTION LINKS / COLLAPSE CONTROL
+   --------------------------------------------------------- */
+
+.homepagemodule caption a,
+.homepagemodule caption a:link,
+.homepagemodule caption a:visited,
+.report caption a,
+.report caption a:link,
+.report caption a:visited {
+    color: #cbbb7c !important;
+    text-decoration: none !important;
+}
+
+.homepagemodule caption a:hover,
+.homepagemodule caption a:focus,
+.report caption a:hover,
+.report caption a:focus {
+    color: #ffffff !important;
+    text-decoration: none !important;
 }
 
 
 /* ---------------------------------------------------------
    TABLE COLUMN HEADERS
+
+   Preserve the GoldMetal beige/gold header rows.
+   Only refine typography and spacing.
    --------------------------------------------------------- */
 
 .homepagemodule th,
 .report th {
     font-family: Aptos, "Segoe UI", Arial, Helvetica, sans-serif !important;
+
     font-size: 11px !important;
     font-weight: 700 !important;
+    line-height: 1.2 !important;
 
     padding: 5px 7px !important;
-    line-height: 1.2 !important;
 }
 
 
 /* ---------------------------------------------------------
    TABLE CONTENT
-   Slightly more breathing room without losing density
+
+   Keep reports compact while adding just enough room.
    --------------------------------------------------------- */
 
 .homepagemodule td,
@@ -610,24 +651,25 @@ body,
 
 
 /* ---------------------------------------------------------
-   LINKS
-   Slightly stronger contrast while keeping CFFFL gold
+   REPORT LINKS
+
+   Maintain the CFFFL muted-gold link color.
    --------------------------------------------------------- */
 
-.homepagemodule a,
-.homepagemodule a:link,
-.homepagemodule a:visited,
-.report a,
-.report a:link,
-.report a:visited {
+.homepagemodule td a,
+.homepagemodule td a:link,
+.homepagemodule td a:visited,
+.report td a,
+.report td a:link,
+.report td a:visited {
     color: #d8c68a !important;
     text-decoration: none !important;
 }
 
-.homepagemodule a:hover,
-.homepagemodule a:focus,
-.report a:hover,
-.report a:focus {
+.homepagemodule td a:hover,
+.homepagemodule td a:focus,
+.report td a:hover,
+.report td a:focus {
     color: #ffffff !important;
     text-decoration: underline !important;
 }
@@ -635,7 +677,9 @@ body,
 
 /* ---------------------------------------------------------
    SUBTLE ROW HOVER
-   Helps scanning dense reports
+
+   Provides a small desktop interaction without changing
+   the normal alternating charcoal rows.
    --------------------------------------------------------- */
 
 .homepagemodule tbody tr:hover td,
@@ -646,44 +690,32 @@ body,
 
 /* ---------------------------------------------------------
    MODULE BORDERS
-   Cleaner, slightly more refined edge
+
+   Slightly softer than the brighter original GoldMetal
+   borders.
    --------------------------------------------------------- */
 
 .homepagemodule,
 .report {
-    border-color: #5a5433 !important;
+    border-color: #514b2e !important;
 }
 
 
 /* ---------------------------------------------------------
-   COLLAPSE / EXPAND CONTROLS
-   Keep them understated but readable
-   --------------------------------------------------------- */
-
-.homepagemodule caption a,
-.report caption a {
-    color: #b9aa75 !important;
-}
-
-.homepagemodule caption a:hover,
-.report caption a:hover {
-    color: #ffffff !important;
-}
-
-
-/* ---------------------------------------------------------
-   MOBILE / NARROW SCREEN SAFETY
+   MOBILE / NARROW SCREEN
    --------------------------------------------------------- */
 
 @media (max-width: 900px) {
-    .homepagemodule td,
-    .report td {
-        padding: 4px 5px !important;
-    }
 
     .homepagemodule caption,
     .report caption {
-        padding: 7px 8px !important;
+        padding: 6px 7px !important;
+        font-size: 12px !important;
+    }
+
+    .homepagemodule td,
+    .report td {
+        padding: 4px 5px !important;
     }
 }
 
