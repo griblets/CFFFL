@@ -779,3 +779,21 @@ body,
     background: #303030 !important;
     color: #ffffff !important;
 }
+
+/* =========================================================
+   CFFFL - BANNER NAVIGATION LINKS
+   Match site-wide muted gold
+   ========================================================= */
+
+.leaguemenu a,
+.leaguemenu a:link,
+.leaguemenu a:visited {
+    color: #c8b66c !important;
+    text-decoration: none !important;
+}
+
+.leaguemenu a:hover,
+.leaguemenu a:focus {
+    color: #ffffff !important;
+    text-decoration: none !important;
+}
