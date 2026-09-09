@@ -775,3 +775,79 @@ body,
     font-size: 12px !important;
     font-weight: 400 !important;
 }
+
+/* =========================================================
+   CFFFL - LEFT CONTENT MENU
+   Match current module styling
+   ========================================================= */
+
+.leftnavcontainers {
+    width: 100% !important;
+    margin: 0 0 14px 0 !important;
+    padding: 0 !important;
+    border: 1px solid #454545 !important;
+    background: #1f1f1f !important;
+    box-sizing: border-box !important;
+}
+
+.leftnavhead {
+    display: block !important;
+    margin: 0 !important;
+    padding: 6px 9px !important;
+
+    font-family: Aptos, "Segoe UI", Arial, Helvetica, sans-serif !important;
+    font-size: 12px !important;
+    font-weight: 700 !important;
+    line-height: 16px !important;
+    letter-spacing: 0.55px !important;
+
+    color: #eeeeee !important;
+    background: #181818 !important;
+
+    border: 0 !important;
+    border-bottom: 2px solid #8f8350 !important;
+
+    text-transform: uppercase !important;
+    text-shadow: none !important;
+}
+
+.leftnav {
+    display: block !important;
+    margin: 0 !important;
+    padding: 0 !important;
+
+    background: #252525 !important;
+    border: 0 !important;
+    border-bottom: 1px solid #333333 !important;
+}
+
+.leftnav a,
+.leftnav a:link,
+.leftnav a:visited {
+    display: block !important;
+
+    margin: 0 !important;
+    padding: 6px 9px !important;
+
+    font-family: Aptos, "Segoe UI", Arial, Helvetica, sans-serif !important;
+    font-size: 12px !important;
+    font-weight: 400 !important;
+    line-height: 16px !important;
+
+    color: #c8b66c !important;
+    background: transparent !important;
+
+    text-align: left !important;
+    text-decoration: none !important;
+}
+
+.leftnav a:hover,
+.leftnav a:focus {
+    color: #ffffff !important;
+    background: #333333 !important;
+    text-decoration: none !important;
+}
+
+.leftnavfooter {
+    display: none !important;
+}
