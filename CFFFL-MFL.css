@@ -763,14 +763,13 @@ body,
 }
 
 /* =========================================================
-   CFFFL - LEAGUE STANDINGS FRANCHISE FONT
-   Match site typography
+   CFFFL - MAIN TAB LEAGUE STANDINGS TEAM NAMES
    ========================================================= */
 
-#standings .franchisename,
-#standings td.franchisename,
-#standings .franchise,
-#standings td.franchise {
+#brief_standings td.name a,
+#brief_standings td.name a:link,
+#brief_standings td.name a:visited {
     font-family: Aptos, "Segoe UI", Arial, Helvetica, sans-serif !important;
-    font-weight: 600 !important;
+    font-size: 12px !important;
+    font-weight: 400 !important;
 }
