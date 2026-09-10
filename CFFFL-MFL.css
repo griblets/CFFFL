@@ -851,3 +851,30 @@ body,
 .leftnavfooter {
     display: none !important;
 }
+
+/* =========================================================
+   CFFFL - CUSTOM MODULE ALTERNATING ROWS
+   Cyberbucks + Offseason Auction Results
+   ========================================================= */
+
+/* Odd rows */
+#cfffl-cyberbucks tbody tr:nth-child(odd) td,
+#cfffl-cyberbucks-offseason tbody tr:nth-child(odd) td,
+#cfffl-auction-results-offseason tbody tr:nth-child(odd) td {
+    background-color: #252525 !important;
+}
+
+/* Even rows */
+#cfffl-cyberbucks tbody tr:nth-child(even) td,
+#cfffl-cyberbucks-offseason tbody tr:nth-child(even) td,
+#cfffl-auction-results-offseason tbody tr:nth-child(even) td {
+    background-color: #1f1f1f !important;
+}
+
+/* Keep existing hover effect */
+#cfffl-cyberbucks tbody tr:hover td,
+#cfffl-cyberbucks-offseason tbody tr:hover td,
+#cfffl-auction-results-offseason tbody tr:hover td {
+    background-color: #333333 !important;
+}
+
